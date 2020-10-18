@@ -1,0 +1,10 @@
+@startuml
+start
+:投入金の種類を判別する;
+if(true)then(1000円紙幣または500円硬貨)
+    :100円硬貨を出す;
+else(それ以外)
+    :投入金を戻す;
+endif
+stop
+@enduml
